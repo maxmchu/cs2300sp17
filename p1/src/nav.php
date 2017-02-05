@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div class = "left-sidebar">
     <h1 class = "nav-title">Meme Groups</h1>
     <ul class = "nav-list">
@@ -12,7 +13,7 @@
         );
 
         foreach($schools as $name => $link){
-            print("<li class = \"nav-item\"><a href = \"/p1/schools/$link\">$name</a></li>");
+            print("<li class = \"nav-item\"><a href = \"/schools/$link\">$name</a></li>");
         }   
         
         ?>

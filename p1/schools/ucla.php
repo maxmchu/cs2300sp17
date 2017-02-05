@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang = "en">
 
     <head>
         <title>UCLA Memes for Sick OF Tweens - College Meme Groups</title>

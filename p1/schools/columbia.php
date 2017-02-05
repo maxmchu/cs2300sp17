@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang = "en">
 
     <head>
         <title>Columbia Buy Sell Memes - College Meme Groups</title>
