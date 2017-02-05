@@ -1,0 +1,173 @@
+/* styling for the site's main banner */
+
+
+
+.site-title,.site-desc, .site-link{
+    font-family: "Garamond", serif;
+    text-align: center;
+    
+}
+
+.site-title{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 25px 0 10px 0;
+}
+
+.site-desc{
+    font-size: 36px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 10px 0 10px 0;
+}
+
+.site-link, .site-link a{
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+.banner{
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/banner.gif);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0 550px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+.banner-text, .banner-text a:visited{
+    color: white;
+    position: absolute;
+    align-self: center;
+    text-decoration: none;
+}
+.banner-text a{
+    color: white;
+    text-decoration: none;
+}
+/*
+Styling that splits the website content into a sidebar and main content
+*/
+.content{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+.left-sidebar{
+    float:left;
+    clear: left;
+    width: 21%;
+    height: 100vh;
+    padding: 0px 10px 10px 0px;
+    margin: 10px 15px 10px 0px;
+    top: 0;
+
+}
+.main-content{
+    float: left;
+    width: 75%;
+    padding: 0 0 10px 0;
+    margin: 10px 15px 10px 0px;
+}
+
+/*
+Sidebar styling
+*/
+
+.nav-title{
+    font-family: "Garamond", serif;
+    font-weight: bold;
+    text-align: left;
+    color: #c0392b;
+    font-size: 42px;
+    margin: 5px 0 0 0;
+}
+.nav-list{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    line-height: 1.5;
+}
+.nav-item a{
+    text-decoration: none;
+    color:black;
+}
+.nav-item a:hover{
+    color: firebrick;
+}
+
+/*
+Content Styling
+*/
+.content-title, .content-title a, .content-title a:visited{
+    color: black;
+    font-family: "Garamond", serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 56px;
+    padding-top: 0px;
+    margin: 0 0 25px 0;
+}
+
+.content-title a:hover{
+    color: #c0392b;
+}
+
+.content-subtitle{
+    font-family: "Garamond", serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.content-subsubtitle{
+    font-family: "Garamond", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-text{
+    font-family: "Garamond", serif;
+    font-size: 18px;
+}
+
+.content-list{
+    font-family: "Garamond", serif;
+    font-size: 18px;
+}
+
+.content-img{
+    height: 400px;
+    display: block;
+    margin: 10px 0 15px 0;
+}
+
+
+/* 
+Email Form
+*/
+
+.email-form{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.email-form input{
+    padding: 5px 5px;
+    margin: 5px 0 5px 0;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+}
+.email-form input["type = submit"]{
+    color: white;
+}
+.error-text{
+    color: red !important;
+}
