@@ -1,0 +1,175 @@
+/*
+    The folowing banner code and site-desc is modified code from P1. I really liked how I organized
+    the banner and content text styling in P1, but I've added some styling tweaks.
+*/
+.banner{
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/gates.jpg);
+    background-size: cover;
+    background-position: 0 550px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    filter: contrast(140%) sepia(40%);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.banner-text, .banner-text a:visited{
+    color: white;
+    position: absolute;
+    align-self: center;
+    text-decoration: none;
+}
+.banner-text a{
+    color: white;
+    text-decoration: none;
+}
+.site-desc{
+    font-family: "Roboto", sans-serif;
+    text-align: center;   
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0 10px 0;
+}
+.site-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin: 25px 0 10px 0;
+}
+.content{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+.content-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.content-text{
+    font-family: "Garamond", serif;
+    font-size: 16px;
+}
+
+/*
+End of copied/modified code.
+*/
+html{
+    overflow-x:hidden;
+}
+body{
+    margin: 0;
+    background-color: #d8d2c9;
+}
+
+.highlight-red{
+    background-color: #b31b1b;
+    color: white;
+    padding: 1px 3px 1px 3px;
+}
+p.error{
+    color: red;   
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.catalog{
+    width: 50%;
+    float: left;
+}
+
+.sidebar{
+    width: 45%;
+    float: right;
+}
+
+.course-card{
+    background-color: white;
+    padding: 2px 5px 5px 6px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px #b31b1b;
+}
+
+.course-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+
+.course-credits{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 5px 0 7px 0;
+}
+
+.course-desc{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13.5px;
+    margin: 5px 0 5px 0;
+}
+
+.tag{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 1px 3px 1px 3px;
+    margin: 0 3px 0 0;
+    color: white;
+}
+.tag-cscore{
+    background-color: #e74c3c;
+}
+.tag-se{
+    background-color: #3498db;
+}
+.tag-ai{
+    background-color: #2ecc71;
+}
+.tag-systems{
+    background-color: #e67e22;
+}
+.tag-renaissance{
+    background-color: #f39c12;
+}
+
+input[type = "text"], input[type = "submit"], input[type = "checkbox"], textarea[name = "field-course-desc"]{
+    padding: 5px;
+    width: auto;
+    margin: 2px 0 2px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.form-field-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 3px 0 3px 0;
+}
+input[name = "field-course-number"], input[name = "field-course-dept"], input[name = "field-course-credits"]{
+    width: 5%;
+}
+input[name = "field-course-name"], input[name = "field-course-desc"]{
+    width: 70%;
+}
+textarea[name = "field-course-desc"]{
+    width: 80%;
+    min-height: 100px;
+}
+.form-label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
