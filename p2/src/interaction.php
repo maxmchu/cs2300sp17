@@ -1,7 +1,7 @@
 <?php
 
 $validfilters = array("cscore","ai","se","systems","renaissance");
-                        
+
 if (isset($_POST['search'])){
     $queryInput = $_POST['field-search'];
     preg_replace('/[^a-zA-z ]+/','',$queryInput);
@@ -19,6 +19,10 @@ if (isset($_POST['search'])){
     echo '<p>Search results for "' . $queryInput . '":</p>';
 
     displayClasses($queryInput, $filters);
+}
+
+if (isset($_POST['view'])){
+    displayClasses("",null);
 }
 
 if (isset($_POST['add-class'])){

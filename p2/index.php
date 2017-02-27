@@ -28,6 +28,9 @@
             <div class = "container">
                 <div class = "catalog">
                     <h1 class = "content-title">Course List</h1>
+                    <form action = "index.php" method = "post" name = "view-form">
+                        <input type = "submit" name = "view" value = "View All Courses">
+                    </form>
                     <div class = "course-cards">
                         <?php
                             include("./src/display.php");
@@ -41,7 +44,7 @@
                     <form action = "index.php" method = "post" name = "search-form">
                         <div class = "search">
                             <input type = "text" name = "field-search" placeholder = "Enter a class name (not a number)">                        
-                            <input type = "submit" name = "search" value = "Search" id = "search-button">
+                            <input type = "submit" name = "search" value = "Search">
                         </div>
                         <div class = "filter">
                             <p class = "form-field-title">Click on a box to set a filter for your search</p>
