@@ -16,7 +16,7 @@ if (isset($_POST['search'])){
         sort($filters, SORT_STRING);
     }
 
-    echo '<p>Search results for "' . $queryInput . '":</p>';
+    echo '<p class = "form-output">Search results for "' . $queryInput . '":</p>';
 
     displayClasses($queryInput, $filters);
 }

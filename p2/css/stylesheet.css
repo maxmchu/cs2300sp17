@@ -70,6 +70,12 @@ body{
     color: white;
     padding: 1px 3px 1px 3px;
 }
+.form-output, p.error{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 p.error{
     color: red;   
 }
