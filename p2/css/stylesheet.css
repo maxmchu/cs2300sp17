@@ -161,7 +161,7 @@ input[type = "text"], input[type = "submit"], input[type = "checkbox"], textarea
 input[name = "field-course-number"], input[name = "field-course-dept"], input[name = "field-course-credits"]{
     width: 5%;
 }
-input[name = "field-course-name"], input[name = "field-course-desc"]{
+input[name = "field-course-name"], input[name = "field-course-desc"], input[name = "field-search"]{
     width: 70%;
 }
 textarea[name = "field-course-desc"]{
