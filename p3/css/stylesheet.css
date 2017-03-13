@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    overflow-x: none;
+    background-color: #f2f2f2;
+}
+.nav{
+    width: 100%;
+    padding: none;
+    margin: none;
+    position: fixed;
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #e74c3c;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nav-link, .nav-link:visited{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color: #bdc3c7;
+}
+.nav-item{
+    display: inline;
+    padding: 2px 5px 2px 5px;
+    margin: 0 5px 0 5px;
+    color: white;
+}
+.nav-search{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    width: 150px;
+}
+.nav-search-btn{
+    padding: 5px;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+.nav-search-btn:hover{
+    color: #bdc3c7;
+    cursor: pointer;
+    cursor: hand;
+}
+.content{
+    padding: 50px 10px 10px 10px;
+    display: block;
+}
+.gallery{
+    display: block;
+}
+.gallery-row{
+    margin: 2px 0 2px 0;
+    display: block;
+    text-align: center;
+}
+.gallery-card{
+    min-width: 350px;
+    min-height: 375px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    border-radius: 5px;
+}
+a.card-link, a.card-link:visited{
+    margin: 5px 0 5px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+}
+a.card-link:hover{
+    color: #c0392b;
+}
+.gallery-img{
+    width: 325px;
+    height: 325px;
+    padding: 10px 0 5px 0;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+.album-title{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-size: 48px;
+}
+.album-info{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 5px 0 10px 0;
+}
+.album-img-card{
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 1200px;
+    background-color: white;
+    padding: 25px 25px 10px 25px;
+    border-radius: 5px;
+}
+.album-img{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+.album-img-caption{
+    text-align: center;
+    font-family: "Garamond", serif;
+    font-size: 18px;
+}
+.album-img-credit{
+    text-align: center;
+    font-family: "Garamond", serif;
+    font-size: 12px;
+    color: gray;
+}
