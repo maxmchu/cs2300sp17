@@ -31,7 +31,7 @@ body{
     margin: 0 5px 0 5px;
     color: white;
 }
-.nav-search{
+.nav-search, .input-album{
     border: none;
     padding: 5px;
     border-radius: 3px;
@@ -39,7 +39,7 @@ body{
     font-weight: 300;
     width: 150px;
 }
-.nav-search-btn{
+.nav-search-btn, .submit-album{
     padding: 5px;
     border-radius: 3px;
     font-family: "Roboto", sans-serif;
@@ -51,6 +51,18 @@ body{
 }
 .nav-search-btn:hover{
     color: #bdc3c7;
+    cursor: pointer;
+    cursor: hand;
+}
+.input-album{
+    width: 200px;
+}
+.submit-album{
+    background-color: #e74c3c;
+    margin-top: 10px;
+}
+.submit-album:hover{
+    background-color: #c0392b;
     cursor: pointer;
     cursor: hand;
 }
@@ -129,4 +141,17 @@ a.card-link:hover{
     font-family: "Garamond", serif;
     font-size: 12px;
     color: gray;
+}
+.album-add{
+    text-align: center;   
+}
+.select-album{
+    padding: 5px;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.nav-search{
+    display: inline;
 }
